@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: turquoise;
+}
+
+body {
+    background-color: gold;
+}
+
+.top-bar {
+    max-width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 35px;
+   position: absolute;
+   padding: 0px 0px 0px 20px;
+   z-index: 3;
+   color: black;
+   font-weight: normal
+}
+
+.top-menu {
+   background-color: purple;
+   position: absolute;
+   top: 85px;
+   z-index: 2;
+   width: auto;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: green;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
+}
+
+.top-menu li a:hover {
+    background-color: red;
+}
+
+.current-page-link {
+    background-color: aqua;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: snow;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: blue;
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:orange;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: pink;
+}
+
+.footer-content a:link {
+    color: brown;
+    text-decoration: none;
+}
